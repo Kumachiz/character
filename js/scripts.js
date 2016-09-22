@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
   $("form#interests").submit(function(event) {
+    $("#Golf_text").hide();
+    $("#Basketball_text").hide();
+    $("#Baseball_text").hide();
+    $("#Sorry_text").hide();
     var sport = $("input:radio[name=sport]:checked").val();
 
     if (sport === 'Golf'){
