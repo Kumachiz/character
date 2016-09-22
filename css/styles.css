@@ -2,13 +2,29 @@
   display: none;
 }
 #Basketball_text {
-
+background-color: white;
 }
 #Golf_text {
     background: url('../img/trump.jpg') no-repeat;
     backgroun-size: 100%;
 
 }
+#interests{
+  background-color: white;
+  width: 370px;
+  border: solid 2px black;
+  border-radius: 5%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 #Baseball_text {
-  
+
+}
+
+.jumbotron {
+  background: url('../img/giphy1.gif');
+
+}
+body{
+  background: url('../img/giphy2.gif');
 }

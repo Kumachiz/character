@@ -12,6 +12,9 @@ $(document).ready(function() {
     else if (sport === 'Baseball'){
       $("#Baseball_text").show();
     }
+    // else if (sport === 'other'){
+    //   $("#Sorry_text").show();
+    // }
     else
       $("#Sorry_text").show();
     // var weather = $("input:radio[name=weather]:checked").val();
